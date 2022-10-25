@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Notes</title>
+    <link rel="stylesheet" href="./style1.css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <header>
+      <h1>TODO</h1>
+        <input 
+          type="text" 
+          name="new-task-input" 
+          id="new-task-input" 
+          placeholder="What's you plan?" />
+        <button onclick="myFunction()"
+          type="submit"
+          id="new-task-submit" 
+          ><i class="fa-solid fa-plus"></i></button>
+    </header>
+    <main>
+        <section class="todo-list">
+              <div id="list"></div>
+                <!-- <div>
+                  value <button>Delete</button>
+                </div> -->
+              </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
